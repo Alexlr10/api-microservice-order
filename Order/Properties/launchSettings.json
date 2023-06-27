@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Checkout": {
+      "commandName": "Project",
+      "commandLineArgs": "checkout"
+    },
+    "Payment": {
+      "commandName": "Project",
+      "commandLineArgs": "payment"
+    }
+  }
+}

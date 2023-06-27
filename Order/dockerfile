@@ -1,0 +1,29 @@
+# Usar a imagem base do .NET 6.0 SDK leve
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine AS build
+
+# Definir o diretório de trabalho como /app
+WORKDIR /app
+
+# Copiar o arquivo do projeto para o diretório de trabalho
+COPY *.csproj ./
+
+# Restaurar as dependências do projeto
+RUN dotnet restore
+
+# Copiar todo o código fonte para o diretório de trabalho
+COPY . .
+
+# Publicar o projeto
+RUN dotnet publish -c Release -o out
+
+# Criar uma nova imagem base
+FROM mcr.microsoft.com/dotnet/runtime:6.0-alpine
+
+# Definir o diretório de trabalho como /app
+WORKDIR /app
+
+# Copiar os arquivos publicados do projeto da etapa de build para o diretório de trabalho
+COPY --from=build /app/out ./
+
+# Definir o comando de inicialização do contêiner
+ENTRYPOINT ["dotnet", "Order.dll"]

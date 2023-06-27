@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "UsHNTgkF7Dh4eP0EoXyH+mkY7Oj4oQvVqzHsyPJeFmetC0Ly7Rjo5J1orEzzeYkzJUbNd/lbXqB5GjkCZZlgcA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\microservicos\\Order\\Order\\Order.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexl\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\alexl\\.nuget\\packages\\nuget.commandline\\6.5.0\\nuget.commandline.6.5.0.nupkg.sha512",
+    "C:\\Users\\alexl\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\alexl\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\alexl\\.nuget\\packages\\stackexchange.redis\\2.6.111\\stackexchange.redis.2.6.111.nupkg.sha512",
+    "C:\\Users\\alexl\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\alexl\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\alexl\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
